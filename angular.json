@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fluyent": {
+    "candhr": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/fluyent",
+            "outputPath": "dist/candhr",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "fluyent:build:production"
+              "buildTarget": "candhr:build:production"
             },
             "development": {
-              "buildTarget": "fluyent:build:development"
+              "buildTarget": "candhr:build:development"
             }
           },
           "defaultConfiguration": "development"
