@@ -1,5 +1,6 @@
-import { Component } from "@angular/core";
+// Dependencies
 import { RouterOutlet } from "@angular/router";
+import { Component } from "@angular/core";
 
 @Component({
 	selector: "app-root",
@@ -8,10 +9,4 @@ import { RouterOutlet } from "@angular/router";
 	templateUrl: "./app.component.html",
 	styleUrl: "./app.component.scss",
 })
-export class AppComponent {
-	value1!: string;
-
-	value2!: string;
-
-	value3!: string;
-}
+export class AppComponent {}
